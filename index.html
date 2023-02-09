@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TODO :: By Harris Richardson</title>
+
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container item_list_empty">
+            <section class="items">
+                <ul id="itemsList">
+                </ul>
+            </section>
+            <footer>
+                <div id="delete_item_div">
+                    <button id="undo_button">Undo</button>
+                    <button id="delete_button">Delete</button>
+                </div>
+                <form id="new_item_form">
+                    <div id="new_item_input">
+                        <input type="text" name="new_item_input" id="new_item_input" placeholder="Create New Item" value="" />
+                        <span id="error_input">Must input text</span>
+                    </div>
+                    <button id="new_item_input_btn" type="submit">Add</button>
+                </form>
+            </footer>
+        </div>
+    </body>
+</html>
